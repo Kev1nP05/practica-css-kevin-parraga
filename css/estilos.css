@@ -204,3 +204,14 @@ button:hover {
 button:active {
     background-color: #173725;
 }
+
+#equipamiento {
+    background-color: #e6f0df;
+    border: 2px solid #a7bda8;
+    padding: 20px;
+}
+
+#equipamiento img:hover {
+    border-color: #28543b;
+    opacity: 0.75;
+}

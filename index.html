@@ -14,6 +14,9 @@
     <nav>
         <a href="#inicio">Inicio</a>
         <a href="#consejos">Consejos</a>
+        <a href="#galeria">Galería</a>
+        <a href="#rutas">Rutas</a>
+        <a href="#contacto">Contacto</a>
     </nav>
 </header>
 
@@ -29,6 +32,87 @@
             <li>Revisa el clima.</li>
         </ul>
     </section>
+
+    <section id="galeria">
+    <h2>Galería de paisajes</h2>
+    <p>Haz clic en una de las dos primeras fotos para verla en tamaño completo.</p>
+
+    <div class="galeria">
+        <a href="imagenes/foto-1.jpg">
+            <img src="imagenes/foto-1.jpg" alt="Sendero entre árboles">
+        </a>
+        <a href="imagenes/foto-2.jpg">
+            <img src="imagenes/foto-2.jpg" alt="Laguna rodeada de montañas">
+        </a>
+        <img src="imagenes/foto-3.jpg" alt="Camino de tierra en el páramo">
+        <img src="imagenes/foto-4.jpg" alt="Cascada entre rocas">
+        <img src="imagenes/foto-5.jpg" alt="Montañas vistas desde un mirador">
+        <img src="imagenes/foto-6.jpg" alt="Bosque junto al camino">
+    </div>
+
+    <ul>
+        <li><a href="https://www.openstreetmap.org/">Consultar mapas en OpenStreetMap</a></li>
+        <li><a href="https://www.gob.ec/inamhi">Consultar información del INAMHI</a></li>
+        <li><a href="https://wmo.int/">Explorar recursos de meteorología</a></li>
+    </ul>
+</section>
+
+<section id="rutas">
+    <h2>Tipos de recorrido</h2>
+    <p>Ejemplos para comparar tres tipos de caminata.</p>
+
+    <div class="tabla">
+        <table>
+            <caption>Comparación de recorridos</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Recorrido</th>
+                    <th scope="col">Terreno</th>
+                    <th scope="col">Esfuerzo orientativo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Paseo junto a una laguna</td>
+                    <td>Generalmente plano</td>
+                    <td>Bajo</td>
+                </tr>
+                <tr>
+                    <td>Sendero de bosque</td>
+                    <td>Tierra con desniveles</td>
+                    <td>Medio</td>
+                </tr>
+                <tr>
+                    <td>Subida a un mirador</td>
+                    <td>Pendiente</td>
+                    <td>Medio a alto</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p>Formulario de demostración. Usa datos de ejemplo.</p>
+
+    <form action="#contacto">
+        <label for="nombre">Nombre</label>
+        <input id="nombre" type="text" required>
+
+        <label for="correo">Correo electrónico</label>
+        <input id="correo" type="email" required>
+
+        <label for="telefono">Teléfono (opcional)</label>
+        <input id="telefono" type="tel">
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" rows="4" required></textarea>
+
+        <button type="submit">Validar datos</button>
+        <button type="reset">Limpiar</button>
+    </form>
+</section>
 </main>
 
 <footer>

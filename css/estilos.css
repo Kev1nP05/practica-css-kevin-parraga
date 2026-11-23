@@ -126,3 +126,33 @@ footer a {
     border-color: hsl(135, 35%, 35%);
     opacity: 0.85;
 }
+
+.tabla {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+}
+
+caption {
+    font-style: italic;
+    padding-bottom: 8px;
+}
+
+th, td {
+    border: 1px solid #a7bda8;
+    padding: 10px;
+    text-align: left;
+}
+
+thead {
+    background-color: #28543b;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #edf4ea;
+}
